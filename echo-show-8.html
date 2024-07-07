@@ -1,0 +1,833 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <script>
+        partytown = {
+            forward: ['dataLayer.push'],
+        };
+    </script>
+
+    <script type="text/partytown">
+		const t = { preserveBehavior: !1 }, e = e => { if ("string" == typeof e) return [e, t]; const [n, r = t] = e; return [n, { ...t, ...r }] }, n = Object.freeze((t => { const e = new Set; let n = []; do { Object.getOwnPropertyNames(n).forEach((t => { "function" == typeof n[t] && e.add(t) })) } while ((n = Object.getPrototypeOf(n)) !== Object.prototype); return Array.from(e) })()); !function (t, r, o, i, a, s, c, d, l, p, u = t, f) { function h() { f || (f = 1, "/" == (c = (s.lib || "/~partytown/") + (s.debug ? "debug/" : ""))[0] && (l = r.querySelectorAll('script[type="text/partytown"]'), i != t ? i.dispatchEvent(new CustomEvent("pt1", { detail: t })) : (d = setTimeout(v, 1e4), r.addEventListener("pt0", w), a ? y(1) : o.serviceWorker ? o.serviceWorker.register(c + (s.swPath || "partytown-sw.js"), { scope: c }).then((function (t) { t.active ? y() : t.installing && t.installing.addEventListener("statechange", (function (t) { "activated" == t.target.state && y() })) }), console.error) : v()))) } function y(e) { p = r.createElement(e ? "script" : "iframe"), t._pttab = Date.now(), e || (p.style.display = "block", p.style.width = "0", p.style.height = "0", p.style.border = "0", p.style.visibility = "hidden", p.setAttribute("aria-hidden", !0)), p.src = c + "partytown-" + (e ? "atomics.js?v=0.10.2" : "sandbox-sw.html?" + t._pttab), r.querySelector(s.sandboxParent || "body").appendChild(p) } function v(n, o) { for (w(), i == t && (s.forward || []).map((function (n) { const [r] = e(n); delete t[r.split(".")[0]] })), n = 0; n < l.length; n++)(o = r.createElement("script")).innerHTML = l[n].innerHTML, o.nonce = s.nonce, r.head.appendChild(o); p && p.parentNode.removeChild(p) } function w() { clearTimeout(d) } s = t.partytown || {}, i == t && (s.forward || []).map((function (r) { const [o, { preserveBehavior: i }] = e(r); u = t, o.split(".").map((function (e, r, o) { var a; u = u[o[r]] = r + 1 < o.length ? u[o[r]] || (a = o[r + 1], n.includes(a) ? [] : {}) : (() => { let e = null; if (i) { const { methodOrProperty: n, thisObject: r } = ((t, e) => { let n = t; for (let t = 0; t < e.length - 1; t += 1)n = n[e[t]]; return { thisObject: n, methodOrProperty: e.length > 0 ? n[e[e.length - 1]] : void 0 } })(t, o); "function" == typeof n && (e = (...t) => n.apply(r, ...t)) } return function () { let n; return e && (n = e(arguments)), (t._ptf = t._ptf || []).push(o, arguments), n } })() })) })), "complete" == r.readyState ? h() : (t.addEventListener("DOMContentLoaded", h), t.addEventListener("load", h)) }(window, document, navigator, top, window.crossOriginIsolated);
+	</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-4FFMLMM4R0"></script>
+    <script type="text/partytown">
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-4FFMLMM4R0');
+	</script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Echo Show 8</title>
+    <meta name="description"
+        content="Discover the Echo Show 8, a versatile smart home device with an 8-inch screen, Alexa integration, and top-notch home automation features">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <!-- =========================
+        Loding All Stylesheet
+    ============================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/lightslider.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+
+    <link rel="stylesheet" href="css/megamenu.css">
+
+    <!-- =========================
+        Loding Main Theme Style
+    ============================== -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- =========================
+    	Header Loding JS Script
+    ============================== -->
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body class="">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <!-- =========================
+        Header Top Section
+    ============================== -->
+    <section id="wd-header" class="d-flex align-items-center mob-sticky">
+        <div class="container">
+            <div class="row">
+                <!-- =========================
+					Mobile Menu 
+				============================== -->
+                <div class="order-2 order-sm-1 col-2 col-sm-2 col-md-4 d-block d-lg-none">
+                    <div class="accordion-wrapper hide-sm-up">
+                        <a href="#" class="mobile-open"><i class="fa fa-bars"></i></a>
+                        <!--Mobile Menu start-->
+
+                        <ul id="mobilemenu" class="accordion">
+                            <!-- <li class="mob-logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></li>-->
+                            <li><a class="closeme" href="#"><i class="fa fa-times"></i></a></li>
+                            <li class="mob-logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></li>
+                            <li>
+                                <div class="link"><a href="index.html"> Home</a></div>
+                            </li>
+                            <li>
+                                <div class="link"><a href="shop-page.html">Shop</a></div>
+                            </li>
+                            <li>
+                                <div class="link">Guides <i class="fa fa-chevron-down"></i></div>
+                                <ul class="submenu font-sky">
+                                    <li><a href="how-to-install-smart-lights-step-by-step.html">How to install smart
+                                            lights step-by-step</a></li>
+                                    <li><a href="smart-thermostat-setup-guide.html">Smart thermostat setup guide</a>
+                                    </li>
+                                    <li><a href="diy-smart-lock-installation.html">DIY Smart lock installation</a></li>
+                                    <li><a href="how-to-install-smart-security-camera.html">How to install a smart
+                                            security camera yourself</a></li>
+                                    <li><a href="how-to-connect-your-smart-TV-to-Alexa.html">How to connect your smart
+                                            TV to Alexa</a>
+                                    </li>
+                                    <li><a href="automate-your-appliances-with-smart-plug-schedules.html">Automate your
+                                            appliances with smart plug schedules</a></li>
+                            </li>
+
+                        </ul>
+                        </li>
+
+                        <li>
+                            <div class="link">FAQ<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li><a href="are-smart-homes-good-idea.html">Are smart homes a good idea?</a></li>
+                                <li><a href="smart-home-vulnerable-to-hackers.html">Is My Smart Home Vulnerable to
+                                        Hackers?</a></li>
+                                <li><a href="why-are-some-people-worried-smart-homes.html">Why are some people worried
+                                        about smart homes?</a></li>
+                                <li><a href="smart-home-increase-property-value.html">Does smart home increase property
+                                        value?</a></li>
+                                <li><a href="pros-and-cons-smart-homes.html">What are the pros and cons of a smart
+                                        home?</a></li>
+                                <li><a href="home-automation-your-gateway-smarter-life.html">How to automate your
+                                        home?</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link"><a href="blog.html">Blog</a></div>
+                        </li>
+                        <li>
+                            <div class="link ">About<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                        </li>
+
+
+                        </ul>
+                        <!--Mobile Menu end-->
+                    </div>
+                </div><!--Mobile menu end-->
+
+                <div class="order-1 order-sm-2  col-12 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                    <div class="blrub-logo">
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+
+            </div><!--Row End-->
+        </div><!--Container End-->
+    </section><!--Section End-->
+
+    <!-- =========================
+        Main Menu Section
+    ============================== -->
+    <section id="main-menu" class="sticker-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 col-md-6 col-lg-12 ">
+                    <div class="menu-container wd-megamenu">
+                        <div class="menu">
+                            <ul class="wd-megamenu-ul">
+                                <li><a href="index.html" class="main-menu-list"><i class="fa fa-home"
+                                            aria-hidden="true"></i> Home </a></li>
+
+                                <li><a href="shop-page.html" class="main-menu-list"> Shop </a></li>
+                                <li><a href="guides.html" class="main-menu-list">Guides<i
+                                            class="fa fa-angle-down angle-down" aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="how-to-install-smart-lights-step-by-step.html">How to install smart
+                                                lights step-by-step</a>
+                                        </li>
+                                        <li><a href="smart-thermostat-setup-guide.html">Smart thermostat setup guide</a>
+                                        </li>
+                                        <li><a href="diy-smart-lock-installation.html">DIY Smart Lock Installation</a>
+                                        </li>
+                                        <li><a href="how-to-install-smart-security-camera.html">How to install a smart
+                                                security camera yourself</a></li>
+                                        <li><a href="how-to-connect-your-smart-TV-to-Alexa.html">How to connect your
+                                                smart TV to Alexa</a></li>
+                                        <li><a href="automate-your-appliances-with-smart-plug-schedules.html">Automate
+                                                your appliances with smart plug schedules</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="about-us.html" class="main-menu-list">About<i
+                                            class="fa fa-angle-down angle-down" aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="about-us.html">About us</a></li>
+                                        <li><a href="contact-us.html">Contact us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="faq.html" class="main-menu-list">FAQ<i class="fa fa-angle-down angle-down"
+                                            aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="are-smart-homes-good-idea.html">Are smart homes a good idea?</a>
+                                        </li>
+                                        <li><a href="smart-home-vulnerable-to-hackers.html">Is My Smart Home Vulnerable
+                                                to
+                                                Hackers?</a></li>
+                                        <li><a href="why-are-some-people-worried-smart-homes.html">Why are some people
+                                                worried about smart homes?</a></li>
+                                        <li><a href="smart-home-increase-property-value.html">Does smart home increase
+                                                property value?</a></li>
+                                        <li><a href="pros-and-cons-smart-homes.html">What are the pros and cons of a
+                                                smart
+                                                home?</a></li>
+                                        <li><a href="home-automation-your-gateway-smarter-life.html">How to automate
+                                                your
+                                                home?</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html" class="main-menu-list">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================
+        Product Details Section
+    ============================== -->
+    <section class="product-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p0">
+                    <div class="page-location">
+                        <ul>
+                            <li><a href="index.html">
+                                    Home </a></li><span class="divider">/</span>
+                            <li><a href="shop-page.html">
+                                    Shop </a></li><span class="divider">/</span>
+
+                            <li><a class="page-location-active" href="echo-show-8.html">
+                                    Echo Show 8
+                                    <span class="divider">/</span>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 product-details-section">
+                    <!-- ====================================
+				        Product Details Gallery Section
+				    ========================================= -->
+                    <div class="row">
+                        <div class="product-gallery col-12 col-md-12 col-lg-6">
+                            <!-- ====================================
+						        Single Product Gallery Section
+						    ========================================= -->
+                            <div class="row">
+                                <div class="col-md-12 product-slier-details">
+                                    <ul id="lightSlider">
+                                        <li
+                                            data-thumb="img/product-img/Echo-Show-8/echo-show-8-product-img-preview1.webp">
+                                            <img class="figure-img img-fluid"
+                                                src="img/product-img/Echo-Show-8/echo-show-8-product-img-preview1.webp"
+                                                alt="Echo Show 8" />
+                                        </li>
+                                        <li
+                                            data-thumb="img/product-img/Echo-Show-8/echo-show-8-product-img-preview2.webp">
+                                            <img class="figure-img img-fluid"
+                                                src="img/product-img/Echo-Show-8/echo-show-8-product-img-preview2.webp"
+                                                alt="Echo Show 8" />
+                                        </li>
+                                        <li
+                                            data-thumb="img/product-img/Echo-Show-8/echo-show-8-product-img-preview3.webp">
+                                            <img class="figure-img img-fluid"
+                                                src="img/product-img/Echo-Show-8/echo-show-8-product-img-preview3.webp"
+                                                alt="Echo Show 8" />
+                                        </li>
+                                        <li
+                                            data-thumb="img/product-img/Echo-Show-8/echo-show-8-product-img-preview4.webp">
+                                            <img class="figure-img img-fluid"
+                                                src="img/product-img/Echo-Show-8/echo-show-8-product-img-preview4.webp"
+                                                alt="Echo Show 8" />
+                                        </li>
+                                    </ul>
+                                    <span class="product-amazon-img-attribution">Product images sourced from <a
+                                            href="https://www.amazon.com/" target="_blank">Amazon.com</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-12 col-md-12 col-lg-6">
+                            <div class="product-details-gallery">
+                                <div class="list-group">
+                                    <h1 class="list-group-item-heading product-title">
+                                        Echo Show 8 - (3rd Gen, 2023 release) | Add Alexa around the home
+                                    </h1>
+                                    <div class="media">
+                                        <div class="media-left media-middle">
+                                            <div class="rating">
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>4.6/5 <span class="product-ratings-text"> +8,500 Ratings</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-group content-list">
+                                    <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> 100% Original product</p>
+                                    <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Manufacturer Warranty</p>
+                                </div>
+                            </div>
+                            <div class="product-store row">
+                                <div class="col-12 product-store-box">
+                                    <div class="row">
+                                        <div class="col-3 p0 store-border-img">
+                                            <img src="img/product-store/amazon.png" class="figure-img img-fluid"
+                                                alt="Product Img">
+                                        </div>
+                                        <div class="col-5 store-border-price text-center">
+                                            <div class="price">
+                                                <p>$149.99</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 store-border-button">
+                                            <a href="https://amzn.to/3RP6Zwi" target="_blank"
+                                                class="btn btn-primary wd-shop-btn pull-right amazon-bg">
+                                                Buy it now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="wd-tab-section">
+                        <div class="bd-example bd-example-tabs">
+                            <ul class="nav nav-pills mb-3 wd-tab-menu" id="pills-tab" role="tablist">
+                                <li class="nav-item col-6 col-md">
+                                    <a class="nav-link active" id="description-tab" data-toggle="pill"
+                                        href="#description-section" role="tab" aria-controls="description-section"
+                                        aria-expanded="true">Description</a>
+                                </li>
+                                <li class="nav-item col-6 col-md">
+                                    <a class="nav-link" id="full-specifiction-tab" data-toggle="pill"
+                                        href="#full-specifiction" role="tab" aria-controls="full-specifiction"
+                                        aria-expanded="false">Full Specification</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade active show " id="description-section" role="tabpanel"
+                                    aria-labelledby="description-tab" aria-expanded="true">
+                                    <div class="product-tab-content">
+                                        <h2 class="description-title">What is the Echo Show 8 and What Does It Do?</h2>
+
+                                        <p class="description-subcontent">Designed with an 8-inch screen and connected
+                                            with Alexa, Amazon's smart display Echo Show 8 In a smart home, it acts as a
+                                            hub for managing daily chores, a digital assistant for organizing smart
+                                            devices, and an entertainment center for streaming media among other uses.
+                                        </p>
+                                        <h3 class="description-subtitle">Features</h3>
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 col-lg-6">
+                                                <ul class="description-list">
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>8-Inch
+                                                            HD Screen:</b> Perfect for video calls, streaming, and
+                                                        showing data is 8-inch HD screen.</li>
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>Alexa
+                                                            Integration:</b> Information searches; voice control for
+                                                        smart home appliances;</li>
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>Stereo
+                                                            Sound:</b> Rich audio quality for movies and music comes
+                                                        from stereo sound.</li>
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>Built-in
+                                                            Camera:</b> Designed in camera for home monitoring and video
+                                                        conferences.</li>
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>Privacy
+                                                            Controls:</b> Included for peace of mind are privacy
+                                                        controls including a camera shutter and microphone off button.
+                                                    </li>
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>Smart
+                                                            Home Hub:</b> Linkages and controls suitable smart home
+                                                        appliances form the Smart Home Hub.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-12 col-lg-6">
+                                                <img class="figure-img img-fluid"
+                                                    src="img/product-img/Echo-Show-8/echo-show-8-product-features.webp"
+                                                    alt="Smart Home Hub">
+                                            </div>
+                                        </div>
+
+
+                                        <br>
+                                        <h3 class="description-subtitle">Usability in a nutshell</h3>
+                                        <p class="description-subcontent">From techies to ordinary users, everyone may
+                                            access the Echo Show 8 since it is made for simplicity of use. Its simple
+                                            touchscreen lets people quickly engage with the gadget. Alexa's voice
+                                            commands give hands-free convenience; the gadget also easily connects with
+                                            other smart home ecosystems, including entertainment devices, security
+                                            systems, and lighting.</p>
+                                        <br>
+                                        <h3 class="description-subtitle">Why Buy the Echo Show 8?
+                                        </h3>
+                                        <p class="description-subcontent">Perfect for video conversations, streaming,
+                                            and presenting pertinent information, the Echo Show 8 is a flexible and
+                                            potent smart home device with a high-resolution 8-inch display. Its
+                                            connection with Alexa offers flawless voice control over your smart home
+                                            appliances, hence improving daily ease and efficiency. It doubles as an
+                                            entertainment center for music and videos and boasts first-rate stereo
+                                            sound. To further provide piece of mind, it has privacy elements including a
+                                            real camera shutter and off switch for the microphone.
+                                            <br>
+                                            For those wishing to update their house with the newest technology, the Echo
+                                            Show 8 also stands out for its affordability and fit with a wide spectrum of
+                                            smart home ecosystems.
+
+                                        </p>
+                                        <h3 class="description-subtitle">Some Pros and Cons</h3>
+                                        <p class="description-subcontent"><strong
+                                                class="video-info-subtitle">Pros:</strong>High-quality display,
+                                            excellent, privacy features, easy to use
+                                            <br>
+                                            <strong class="video-info-subtitle">Cons:</strong>Needs to be plugged in,
+                                            restricting where it can be placed
+                                        </p>
+                                    </div>
+                                    <hr>
+                                    <p class="description-subcontent">Any smart home configuration would benefit from
+                                        the adaptable and strong addition that is The Echo Show 8. For those wishing to
+                                        improve their home automation and entertainment experiences, its mix of an
+                                        8-inch HD screen, Alexa connection, and strong audio is outstanding. Anyone
+                                        wishing to update their smart home equipment will find the Echo Show 8 to be a
+                                        convincing choice given its mix of capabilities, simplicity of use, and
+                                        competitive price range.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="full-specifiction">
+                                    <h6>Full Specification</h6>
+                                    <p class="wd-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Asperiores id assumenda, ex ab voluptatem doloremque soluta magnam eum nihil
+                                        iusto maiores! Libero nisi maior</p>
+
+                                    <ul class="list-group wd-info-section">
+                                        <li
+                                            class="list-group-item d-flex justify-content-between align-items-center p0">
+                                            <div class="col-12 col-md-6 info-section">
+                                                <p>Size: 7.9” x 5.5” x 4.2” (200mm x 139mm x 106mm)</p>
+                                            </div>
+                                            <div class="col-12 col-md-5 info-section">
+                                                <p>Weight: 36.6 oz
+                                                </p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </li>
+                                        <li
+                                            class="list-group-item d-flex justify-content-between align-items-center p0">
+                                            <div class="col-12 col-md-6 info-section">
+                                                <p>Display: 8.0” HD touch screen</p>
+                                            </div>
+                                            <div class="col-12 col-md-5 info-section">
+                                                <p>Camera: 13 MP centered camera with built-in shutter
+                                                </p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </li>
+                                        <li
+                                            class="list-group-item d-flex justify-content-between align-items-center p0">
+                                            <div class="col-12 col-md-6 info-section">
+                                                <p>WiFi connectivity: Dual-band WiFi supports 802.11a/b/g/n/ac WiFi
+                                                    networks
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-5 info-section">
+                                                <p>Smart Home Hub: Zigbee + Matter + Thread Border Router</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </li>
+                                        <li
+                                            class="list-group-item d-flex justify-content-between align-items-center p0">
+                                            <div class="col-12 col-md-6 info-section">
+                                                <p>Processor: Octa-Core SoC with Amazon AZ2 Neural Network Engine
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-5 info-section">
+                                                <p>Audio: 2 x 2” full range neodymium drivers with passive bass radiator
+                                                </p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row related-product">
+                <h4 class="related-product-title">Related Items</h4>
+                <div id="related-product" class="owl-carousel owl-theme">
+
+                    <div class="col-12">
+                        <figure class="figure product-box">
+                            <div class="product-box-img">
+                                <a href="amazon-echo-dot.html">
+                                    <img src="img/product-img/Amazon-Echo-Dot/amazon-echo-dot-product-img.webp"
+                                        class="figure-img img-fluid" alt="Amazon Echo Dot">
+                                </a>
+                                <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                            </div>
+                            <figcaption class="figure-caption text-center">
+                                <span class="badge badge-secondary wd-badge text-uppercase">Voice Assistant</span>
+                                <div class="price-start">
+                                    <p><strong class="active-color"><u>$49.99</u></strong></p>
+                                </div>
+                                <div class="content-excerpt">
+                                    <a href="amazon-echo-dot.html">
+                                        <p>Amazon Echo Dot</p>
+                                    </a>
+                                </div>
+                                <div class="rating">
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="compare-btn">
+                                    <a class="btn btn-primary btn-sm" href="amazon-echo-dot.html">Buy
+                                        Now</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-12">
+                        <figure class="figure product-box">
+                            <div class="product-box-img">
+                                <a href="amazon-echo-show-10.html">
+                                    <img src="img/product-img/Amazon-Echo-Show-10/amazon-echo-show-10-product-img.webp"
+                                        class="figure-img img-fluid" alt="Amazon Echo Show 10">
+                                </a>
+                                <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                            </div>
+                            <figcaption class="figure-caption text-center">
+                                <span class="badge badge-secondary wd-badge text-uppercase">Hub</span>
+                                <div class="price-start">
+                                    <p><strong class="active-color"><u>$249.99</u></strong></p>
+                                </div>
+                                <div class="content-excerpt">
+                                    <a href="amazon-echo-show-10.html">
+                                        <p>Amazon Echo Show 10</p>
+                                    </a>
+                                </div>
+                                <div class="rating">
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="compare-btn">
+                                    <a class="btn btn-primary btn-sm" href="amazon-echo-show-10.html">Buy
+                                        Now</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-12">
+                        <figure class="figure product-box">
+                            <div class="product-box-img">
+                                <a href="google-nest-mini-speaker.html">
+                                    <img src="img/product-img/Google-Nest-Mini-Speaker/google-nest-mini-speaker-product-img.webp"
+                                        class="figure-img img-fluid" alt="Google Nest Mini Speaker">
+                                </a>
+                                <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                            </div>
+                            <figcaption class="figure-caption text-center">
+                                <span class="badge badge-secondary wd-badge text-uppercase">Voice Assistant</span>
+                                <div class="price-start">
+                                    <p><strong class="active-color"><u>$49.99</u></strong></p>
+                                </div>
+                                <div class="content-excerpt">
+                                    <a href="google-nest-mini-speaker.html">
+                                        <p>Google Nest Mini Speaker</p>
+                                    </a>
+                                </div>
+                                <div class="rating">
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="compare-btn">
+                                    <a class="btn btn-primary btn-sm" href="google-nest-mini-speaker.html">Buy
+                                        Now</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-12">
+                        <figure class="figure product-box">
+                            <div class="product-box-img">
+                                <a href="amazon-echo-pop.html">
+                                    <img src="img/product-img/Amazon-Echo-Pop/amazon-echo-pop-product-img.webp"
+                                        class="figure-img img-fluid" alt="Amazon Echo Pop">
+                                </a>
+                                <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                            </div>
+                            <figcaption class="figure-caption text-center">
+                                <span class="badge badge-secondary wd-badge text-uppercase">Voice Assistant</span>
+                                <div class="price-start">
+                                    <p><strong class="active-color"><u>$39.99</u></strong></p>
+                                </div>
+                                <div class="content-excerpt">
+                                    <a href="amazon-echo-pop.html">
+                                        <p>Amazon Echo Pop</p>
+                                    </a>
+                                </div>
+                                <div class="rating">
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="compare-btn">
+                                    <a class="btn btn-primary btn-sm" href="amazon-echo-pop.html">Buy
+                                        Now</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+        Details Section
+    ============================== -->
+    <section id="details">
+        <div class="container">
+            <div class="row wow fadeInLeft animated justify-content-center" data-wow-delay="600ms">
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-compare" src="img/details-img/facts-icon.svg"
+                                    alt="compare-icon">
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h5 class="details-title">Get the Facts</h5>
+                            <p>Discover accurate and reliable product information</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-user" src="img/details-img/review-icon.svg"
+                                    alt="review-icon">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h4 class="details-title">Take Review</h4>
+                            <p>Explore recommended products through detailed reviews.</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-vendor" src="img/details-img/shop.svg"
+                                    alt="vendor-icon">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h4 class="details-title">Amazon Store</h4>
+                            <p>Purchase directly through the link to the specific product on Amazon.</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box details-active">
+                    <div class="text-center">
+                        <img class="img-fluid" src="img/details-img/gift-icon.svg" alt="gift-icon">
+                        <h3 class="details-active-title">Enjoy Result</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =========================
+        Footer Section
+    ============================== -->
+    <footer class="footer wow fadeInUp animated" data-wow-delay="900ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- ===========================
+    						Footer About
+    					 =========================== -->
+                    <div class="footer-about">
+                        <a href="index.html" class="footer-about-logo">
+                            <img src="img/logo.svg" alt="Logo">
+                        </a>
+                        <div class="footer-description">
+                            <p style="text-align: justify;">Explore a realm of comfort and intelligent technology at
+                                Habitatronic. Discover top-notch
+                                products for your smart home, simplifying your daily life with our innovative solutions.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-2 footer-view-controller">
+                    <!-- ===========================
+    						Festival Deals
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <h6 class="footer-subtitle active-color">Footer Menu</h6>
+                        <ul>
+                            <li><a href="index.html"> Home </a></li>
+                            <li><a href="shop-page.html">Shop </a></li>
+                            <li><a href="guides.html">Guides </a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-view-controller">
+                    <!-- ===========================
+    						Need Help ?
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <div class="footer-nav">
+                            <h6 class="footer-subtitle">Need Help ?</h6>
+                            <ul>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-view-controller">
+                    <!-- ===========================
+    						About
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <h6 class="footer-subtitle">Policy</h6>
+                        <ul>
+                            <li><a href="terms-of-use.html">Term of Use</a></li>
+                            <li><a href="privacy-policies.html">Privacy Policies</a></li>
+                            <li><a href="cookie-policies.html">Cookie Policies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =========================
+        CopyRight
+    ============================== -->
+    <section class="copyright wow fadeInUp animated" data-wow-delay="1500ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="copyright-text">
+                        <p class="text-uppercase">COPYRIGHT &copy; 2024</p><a class="created-by"
+                            href="http://habitatronic.com/">Habitatronic</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+    	Main Loding JS Script
+    ============================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <!-- <script src="js/jquery.nicescroll.js"></script> -->
+    <script src="js/jquery.rateyo.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/lightslider.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+
+    <script src="js/simplePlayer.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

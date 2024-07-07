@@ -1,0 +1,822 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <script>
+        partytown = {
+            forward: ['dataLayer.push'],
+        };
+    </script>
+
+    <script type="text/partytown">
+		const t = { preserveBehavior: !1 }, e = e => { if ("string" == typeof e) return [e, t]; const [n, r = t] = e; return [n, { ...t, ...r }] }, n = Object.freeze((t => { const e = new Set; let n = []; do { Object.getOwnPropertyNames(n).forEach((t => { "function" == typeof n[t] && e.add(t) })) } while ((n = Object.getPrototypeOf(n)) !== Object.prototype); return Array.from(e) })()); !function (t, r, o, i, a, s, c, d, l, p, u = t, f) { function h() { f || (f = 1, "/" == (c = (s.lib || "/~partytown/") + (s.debug ? "debug/" : ""))[0] && (l = r.querySelectorAll('script[type="text/partytown"]'), i != t ? i.dispatchEvent(new CustomEvent("pt1", { detail: t })) : (d = setTimeout(v, 1e4), r.addEventListener("pt0", w), a ? y(1) : o.serviceWorker ? o.serviceWorker.register(c + (s.swPath || "partytown-sw.js"), { scope: c }).then((function (t) { t.active ? y() : t.installing && t.installing.addEventListener("statechange", (function (t) { "activated" == t.target.state && y() })) }), console.error) : v()))) } function y(e) { p = r.createElement(e ? "script" : "iframe"), t._pttab = Date.now(), e || (p.style.display = "block", p.style.width = "0", p.style.height = "0", p.style.border = "0", p.style.visibility = "hidden", p.setAttribute("aria-hidden", !0)), p.src = c + "partytown-" + (e ? "atomics.js?v=0.10.2" : "sandbox-sw.html?" + t._pttab), r.querySelector(s.sandboxParent || "body").appendChild(p) } function v(n, o) { for (w(), i == t && (s.forward || []).map((function (n) { const [r] = e(n); delete t[r.split(".")[0]] })), n = 0; n < l.length; n++)(o = r.createElement("script")).innerHTML = l[n].innerHTML, o.nonce = s.nonce, r.head.appendChild(o); p && p.parentNode.removeChild(p) } function w() { clearTimeout(d) } s = t.partytown || {}, i == t && (s.forward || []).map((function (r) { const [o, { preserveBehavior: i }] = e(r); u = t, o.split(".").map((function (e, r, o) { var a; u = u[o[r]] = r + 1 < o.length ? u[o[r]] || (a = o[r + 1], n.includes(a) ? [] : {}) : (() => { let e = null; if (i) { const { methodOrProperty: n, thisObject: r } = ((t, e) => { let n = t; for (let t = 0; t < e.length - 1; t += 1)n = n[e[t]]; return { thisObject: n, methodOrProperty: e.length > 0 ? n[e[e.length - 1]] : void 0 } })(t, o); "function" == typeof n && (e = (...t) => n.apply(r, ...t)) } return function () { let n; return e && (n = e(arguments)), (t._ptf = t._ptf || []).push(o, arguments), n } })() })) })), "complete" == r.readyState ? h() : (t.addEventListener("DOMContentLoaded", h), t.addEventListener("load", h)) }(window, document, navigator, top, window.crossOriginIsolated);
+	</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-4FFMLMM4R0"></script>
+    <script type="text/partytown">
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-4FFMLMM4R0');
+	</script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ring Alarm Motion Detector</title>
+    <meta name="description"
+        content="Enhance your home security with the Ring Alarm Motion Detector. Discover its features, usability, and why it's a smart, affordable choice for protecting your home.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <!-- =========================
+        Loding All Stylesheet
+    ============================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/lightslider.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+
+    <link rel="stylesheet" href="css/megamenu.css">
+
+    <!-- =========================
+        Loding Main Theme Style
+    ============================== -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- =========================
+    	Header Loding JS Script
+    ============================== -->
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body class="">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- =========================
+        Header Top Section
+    ============================== -->
+    <section id="wd-header" class="d-flex align-items-center mob-sticky">
+        <div class="container">
+            <div class="row">
+                <!-- =========================
+					Mobile Menu 
+				============================== -->
+                <div class="order-2 order-sm-1 col-2 col-sm-2 col-md-4 d-block d-lg-none">
+                    <div class="accordion-wrapper hide-sm-up">
+                        <a href="#" class="mobile-open"><i class="fa fa-bars"></i></a>
+                        <!--Mobile Menu start-->
+
+                        <ul id="mobilemenu" class="accordion">
+                            <!-- <li class="mob-logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></li>-->
+                            <li><a class="closeme" href="#"><i class="fa fa-times"></i></a></li>
+                            <li class="mob-logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></li>
+                            <li>
+                                <div class="link"><a href="index.html"> Home</a></div>
+                            </li>
+                            <li>
+                                <div class="link"><a href="shop-page.html">Shop</a></div>
+                            </li>
+                            <li>
+                                <div class="link">Guides <i class="fa fa-chevron-down"></i></div>
+                                <ul class="submenu font-sky">
+                                    <li><a href="how-to-install-smart-lights-step-by-step.html">How to install smart
+                                            lights step-by-step</a></li>
+                                    <li><a href="smart-thermostat-setup-guide.html">Smart thermostat setup guide</a>
+                                    </li>
+                                    <li><a href="diy-smart-lock-installation.html">DIY Smart lock installation</a></li>
+                                    <li><a href="how-to-install-smart-security-camera.html">How to install a smart
+                                            security camera yourself</a></li>
+                                    <li><a href="how-to-connect-your-smart-TV-to-Alexa.html">How to connect your smart
+                                            TV to Alexa</a>
+                                    </li>
+                                    <li><a href="automate-your-appliances-with-smart-plug-schedules.html">Automate your
+                                            appliances with smart plug schedules</a></li>
+                            </li>
+
+                        </ul>
+                        </li>
+
+                        <li>
+                            <div class="link">FAQ<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li><a href="are-smart-homes-good-idea.html">Are smart homes a good idea?</a></li>
+                                <li><a href="smart-home-vulnerable-to-hackers.html">Is My Smart Home Vulnerable to
+                                        Hackers?</a></li>
+                                <li><a href="why-are-some-people-worried-smart-homes.html">Why are some people worried
+                                        about smart homes?</a></li>
+                                <li><a href="smart-home-increase-property-value.html">Does smart home increase property
+                                        value?</a></li>
+                                <li><a href="pros-and-cons-smart-homes.html">What are the pros and cons of a smart
+                                        home?</a></li>
+                                <li><a href="home-automation-your-gateway-smarter-life.html">How to automate your
+                                        home?</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link"><a href="blog.html">Blog</a></div>
+                        </li>
+                        <li>
+                            <div class="link ">About<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                        </li>
+
+
+                        </ul>
+                        <!--Mobile Menu end-->
+                    </div>
+                </div><!--Mobile menu end-->
+
+                <div class="order-1 order-sm-2  col-12 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                    <div class="blrub-logo">
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+            </div><!--Row End-->
+        </div><!--Container End-->
+    </section><!--Section End-->
+
+    <!-- =========================
+        Main Menu Section
+    ============================== -->
+    <section id="main-menu" class="sticker-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 col-md-6 col-lg-12 ">
+                    <div class="menu-container wd-megamenu">
+                        <div class="menu">
+                            <ul class="wd-megamenu-ul">
+                                <li><a href="index.html" class="main-menu-list"><i class="fa fa-home"
+                                            aria-hidden="true"></i> Home </a></li>
+
+                                <li><a href="shop-page.html" class="main-menu-list"> Shop </a></li>
+                                <li><a href="guides.html" class="main-menu-list">Guides<i
+                                            class="fa fa-angle-down angle-down" aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="how-to-install-smart-lights-step-by-step.html">How to install smart
+                                                lights step-by-step</a>
+                                        </li>
+                                        <li><a href="smart-thermostat-setup-guide.html">Smart thermostat setup guide</a>
+                                        </li>
+                                        <li><a href="diy-smart-lock-installation.html">DIY Smart Lock Installation</a>
+                                        </li>
+                                        <li><a href="how-to-install-smart-security-camera.html">How to install a smart
+                                                security camera yourself</a></li>
+                                        <li><a href="how-to-connect-your-smart-TV-to-Alexa.html">How to connect your
+                                                smart TV to Alexa</a></li>
+                                        <li><a href="automate-your-appliances-with-smart-plug-schedules.html">Automate
+                                                your appliances with smart plug schedules</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="about-us.html" class="main-menu-list">About<i
+                                            class="fa fa-angle-down angle-down" aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="about-us.html">About us</a></li>
+                                        <li><a href="contact-us.html">Contact us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="faq.html" class="main-menu-list">FAQ<i class="fa fa-angle-down angle-down"
+                                            aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="are-smart-homes-good-idea.html">Are smart homes a good idea?</a>
+                                        </li>
+                                        <li><a href="smart-home-vulnerable-to-hackers.html">Is My Smart Home Vulnerable
+                                                to
+                                                Hackers?</a></li>
+                                        <li><a href="why-are-some-people-worried-smart-homes.html">Why are some people
+                                                worried about smart homes?</a></li>
+                                        <li><a href="smart-home-increase-property-value.html">Does smart home increase
+                                                property value?</a></li>
+                                        <li><a href="pros-and-cons-smart-homes.html">What are the pros and cons of a
+                                                smart
+                                                home?</a></li>
+                                        <li><a href="home-automation-your-gateway-smarter-life.html">How to automate
+                                                your
+                                                home?</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html" class="main-menu-list">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================
+        Product Details Section
+    ============================== -->
+    <section class="product-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p0">
+                    <div class="page-location">
+                        <ul>
+                            <li><a href="index.html">
+                                    Home </a></li><span class="divider">/</span>
+                            <li><a href="shop-page.html">
+                                    Shop </a></li><span class="divider">/</span>
+
+                            <li><a class="page-location-active" href="ring-alarm-motion-detector.html">
+                                    Ring Alarm Motion Detector
+                                    <span class="divider">/</span>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 product-details-section">
+                    <!-- ====================================
+				        Product Details Gallery Section
+				    ========================================= -->
+                    <div class="row">
+                        <div class="product-gallery col-12 col-md-12 col-lg-6">
+                            <!-- ====================================
+						        Single Product Gallery Section
+						    ========================================= -->
+                            <div class="row">
+                                <div class="col-md-12 product-slier-details">
+                                    <ul id="lightSlider">
+                                        <li
+                                            data-thumb="img/product-img/Ring-Alarm-Motion-Detector/ring-alarm-motion-detector-product-img-preview1.webp">
+                                            <img class="figure-img img-fluid"
+                                                src="img/product-img/Ring-Alarm-Motion-Detector/ring-alarm-motion-detector-product-img-preview1.webp"
+                                                alt="Ring Alarm Motion Detector" />
+                                        </li>
+                                        <li
+                                            data-thumb="img/product-img/Ring-Alarm-Motion-Detector/ring-alarm-motion-detector-product-img-preview2.webp">
+                                            <img class="figure-img img-fluid"
+                                                src="img/product-img/Ring-Alarm-Motion-Detector/ring-alarm-motion-detector-product-img-preview2.webp"
+                                                alt="Ring Alarm Motion Detector" />
+                                        </li>
+                                        <li
+                                            data-thumb="img/product-img/Ring-Alarm-Motion-Detector/ring-alarm-motion-detector-product-img-preview3.webp">
+                                            <img class="figure-img img-fluid"
+                                                src="img/product-img/Ring-Alarm-Motion-Detector/ring-alarm-motion-detector-product-img-preview3.webp"
+                                                alt="Ring Alarm Motion Detector" />
+                                        </li>
+                                    </ul>
+                                    <span class="product-amazon-img-attribution">Product images sourced from <a
+                                            href="https://www.amazon.com/" target="_blank">Amazon.com</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-12 col-md-12 col-lg-6">
+                            <div class="product-details-gallery">
+                                <div class="list-group">
+                                    <h1 class="list-group-item-heading product-title">
+                                        Ring - Alarm Motion Detector (2nd Gen) (2-Pack)
+                                    </h1>
+                                    <div class="media">
+                                        <div class="media-left media-middle">
+                                            <div class="rating">
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                                <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                                <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>4.7/5 <span class="product-ratings-text"> +11,000 Ratings</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-group content-list">
+                                    <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> 100% Original product</p>
+                                    <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Manufacturer Warranty</p>
+                                </div>
+                            </div>
+                            <div class="product-store row">
+                                <div class="col-12 product-store-box">
+                                    <div class="row">
+                                        <div class="col-3 p0 store-border-img">
+                                            <img src="img/product-store/amazon.png" class="figure-img img-fluid"
+                                                alt="Product Img">
+                                        </div>
+                                        <div class="col-5 store-border-price text-center">
+                                            <div class="price">
+                                                <p>$59.99</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 store-border-button">
+                                            <a href="https://amzn.to/45JVoV2" target="_blank"
+                                                class="btn btn-primary wd-shop-btn pull-right amazon-bg">
+                                                Buy it now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="wd-tab-section">
+                        <div class="bd-example bd-example-tabs">
+                            <ul class="nav nav-pills mb-3 wd-tab-menu" id="pills-tab" role="tablist">
+                                <li class="nav-item col-6 col-md">
+                                    <a class="nav-link active" id="description-tab" data-toggle="pill"
+                                        href="#description-section" role="tab" aria-controls="description-section"
+                                        aria-expanded="true">Description</a>
+                                </li>
+                                <li class="nav-item col-6 col-md">
+                                    <a class="nav-link" id="full-specifiction-tab" data-toggle="pill"
+                                        href="#full-specifiction" role="tab" aria-controls="full-specifiction"
+                                        aria-expanded="false">Full Specification</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade active show " id="description-section" role="tabpanel"
+                                    aria-labelledby="description-tab" aria-expanded="true">
+                                    <div class="product-tab-content">
+                                        <h2 class="description-title">Ring Alarm Motion Detector: The Silent Guardian of
+                                            Your Home</h2>
+
+
+                                        <p class="description-subcontent">The Ring Alarm Motion Detector is a wireless
+                                            device designed to enhance your home security system. It's a key component
+                                            of the Ring Alarm ecosystem, working alongside other Ring devices to create
+                                            a comprehensive security network. <br>
+                                            The motion detector uses passive infrared (PIR) technology to detect heat
+                                            signatures. When a person or large pet moves within its field of view, it
+                                            triggers an alert, sending a notification to your Ring app. This allows you
+                                            to monitor activity in real-time, whether you're at home or away.
+
+                                        </p>
+                                        <h3 class="description-subtitle">Features</h3>
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 col-lg-6">
+                                                <ul class="description-list">
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>Easy
+                                                            Installation:</b> No tools or professional installation
+                                                        required. Simply peel and stick the detector to a wall or
+                                                        corner.</li>
+                                                    <li><i class="fa fa-dot-circle-o"
+                                                            aria-hidden="true"></i><b>Adjustable Sensitivity:</b>
+                                                        Customize the sensitivity to fit your needs and minimize false
+                                                        alarms.</li>
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>Wireless
+                                                            Connectivity:</b> Connects to your Ring Alarm Base Station
+                                                        via a secure wireless network.</li>
+                                                    <li><i class="fa fa-dot-circle-o"
+                                                            aria-hidden="true"></i><b>Battery-Powered:</b> Runs on a
+                                                        long-lasting battery (typically 2+ years).</li>
+                                                    <li><i class="fa fa-dot-circle-o"
+                                                            aria-hidden="true"></i><b>Integration with Ring App:</b>
+                                                        Receive instant notifications, customize settings, and
+                                                        arm/disarm your system from your smartphone.</li>
+                                                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i><b>Optional
+                                                            Professional Monitoring:</b> Subscribe to Ring Protect for
+                                                        24/7 professional monitoring and cellular backup.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-12 col-lg-6">
+                                                <img class="figure-img img-fluid"
+                                                    src="img/product-img/Ring-Alarm-Motion-Detector/ring-alarm-motion-detector-product-features.webp"
+                                                    alt="Ring Alarm Motion Detector Features">
+                                            </div>
+                                        </div>
+
+
+                                        <br>
+                                        <h3 class="description-subtitle">Usability</h3>
+                                        <p class="description-subcontent">The Ring Alarm Motion Detector is incredibly
+                                            user-friendly. The Ring app guides you through the setup process, making it
+                                            simple even for those with limited tech experience. Once installed, the
+                                            detector works reliably, sending alerts promptly and accurately. The app
+                                            provides a clear overview of your detector's status, battery life, and event
+                                            history.</p>
+                                        <br>
+                                        <h3 class="description-subtitle">Why Buy the Ring Alarm Motion Detector?
+                                        </h3>
+                                        <p class="description-subcontent">The Ring Alarm Motion Detector is an essential
+                                            addition to any home security setup. It offers an extra layer of protection
+                                            by detecting movement in areas where you need it most. Whether it's
+                                            monitoring your living room, hallways, or entryways, the motion detector
+                                            provides peace of mind knowing that you'll be alerted to any unexpected
+                                            activity. Its flexibility, ease of use, and affordability make it an
+                                            <br>
+                                            excellent choice for homeowners, renters, and small business owners alike.
+                                            Plus, seamless integration with the Ring ecosystem allows you to expand your
+                                            security network with other devices, creating a comprehensive and
+                                            interconnected security solution.
+                                        </p>
+                                        <h3 class="description-subtitle">Some Pros and Cons</h3>
+                                        <p class="description-subcontent"><strong
+                                                class="video-info-subtitle">Pros:</strong>Easy installation and setup,
+                                            reliable performance, adjustable sensitivity, integration with Ring
+                                            ecosystem
+                                            <br>
+                                            <strong class="video-info-subtitle">Cons:</strong>Subscription required for
+                                            professional monitoring and some features, may trigger false alarms if not
+                                            properly adjusted
+                                        </p>
+                                    </div>
+                                    <hr>
+                                    <p class="description-subcontent">The Ring Alarm Motion Detector is a valuable asset
+                                        for anyone seeking to enhance their home security. Its ease of use, reliable
+                                        performance, and affordable price make it an attractive option for those looking
+                                        to add an extra layer of protection. Whether you're a homeowner, renter, or
+                                        small business owner, the Ring Alarm Motion Detector provides peace of mind
+                                        knowing that your property is being monitored for unexpected activity.</p>
+                                </div>
+                                <div class="tab-pane fade" id="full-specifiction">
+                                    <h6>Full Specification</h6>
+                                    <p class="wd-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Asperiores id assumenda, ex ab voluptatem doloremque soluta magnam eum nihil
+                                        iusto maiores! Libero nisi maior</p>
+
+                                    <ul class="list-group wd-info-section">
+                                        <li
+                                            class="list-group-item d-flex justify-content-between align-items-center p0">
+                                            <div class="col-12 col-md-6 info-section">
+                                                <p>Brand Name: Ring</p>
+                                            </div>
+                                            <div class="col-12 col-md-5 info-section">
+                                                <p>Power: 2 AA batteries
+                                                </p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </li>
+                                        <li
+                                            class="list-group-item d-flex justify-content-between align-items-center p0">
+                                            <div class="col-12 col-md-6 info-section">
+                                                <p>Operating conditions: Indoor use, 32°F to 120°F (0°C to 49°C)</p>
+                                            </div>
+                                            <div class="col-12 col-md-5 info-section">
+                                                <p>Dimensions: 2.6 in x 2.6 in x 1.53 in
+                                                </p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </li>
+                                        <li
+                                            class="list-group-item d-flex justify-content-between align-items-center p0">
+                                            <div class="col-12 col-md-6 info-section">
+                                                <p>Installation: Mounts to room corners or flat walls, Ring Alarm Kit
+                                                    required
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-5 info-section">
+                                                <p>Connectivity: Z-Wave (250-foot range to Base Station open air, line
+                                                    of sight)</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row related-product">
+                <h4 class="related-product-title">Related Items</h4>
+                <div id="related-product" class="owl-carousel owl-theme">
+
+
+                    <div class="col-12">
+                        <figure class="figure product-box">
+                            <div class="product-box-img">
+                                <a href="simplisafe-8-piece-wireless-security-system.html">
+                                    <img src="img/product-img/SimpliSafe-8-Piece-Wireless-Security-System/simplisafe-8-piece-wireless-security-system-product-img.webp"
+                                        class="figure-img img-fluid" alt="SimpliSafe Wireless Security System">
+                                </a>
+                                <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                            </div>
+                            <figcaption class="figure-caption text-center">
+                                <span class="badge badge-secondary wd-badge text-uppercase">Security System</span>
+                                <div class="price-start">
+                                    <p><strong class="active-color"><u>$299.99</u></strong></p>
+                                </div>
+                                <div class="content-excerpt">
+                                    <a href="simplisafe-8-piece-wireless-security-system.html">
+                                        <p>SimpliSafe Security System</p>
+                                    </a>
+                                </div>
+                                <div class="rating">
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="compare-btn">
+                                    <a class="btn btn-primary btn-sm"
+                                        href="simplisafe-8-piece-wireless-security-system.html">Buy
+                                        Now</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-12">
+                        <figure class="figure product-box">
+                            <div class="product-box-img">
+                                <a href="ring-alarm-contact-sensor.html">
+                                    <img src="img/product-img/Ring-Alarm-Contact-Sensor/ring-alarm-contact-sensor-product-img.webp"
+                                        class="figure-img img-fluid" alt="Ring Alarm Contact Sensor">
+                                </a>
+                                <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                            </div>
+                            <figcaption class="figure-caption text-center">
+                                <span class="badge badge-secondary wd-badge text-uppercase">Security System</span>
+                                <div class="price-start">
+                                    <p><strong class="active-color"><u>$39.99</u></strong></p>
+                                </div>
+                                <div class="content-excerpt">
+                                    <a href="ring-alarm-contact-sensor.html">
+                                        <p>Ring Alarm Contact Sensor</p>
+                                    </a>
+                                </div>
+                                <div class="rating">
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="compare-btn">
+                                    <a class="btn btn-primary btn-sm" href="ring-alarm-contact-sensor.html">Buy
+                                        Now</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div class="col-12">
+                        <figure class="figure product-box">
+                            <div class="product-box-img">
+                                <a href="amazon-blink-outdoor-security-camera.html">
+                                    <img src="img/product-img/Amazon-Blink-Outdoor-Security-Camera/amazon-blink-outdoor-security-camera-product-img.webp"
+                                        class="figure-img img-fluid" alt="Amazon Blink Outdoor Security Camera">
+                                </a>
+                                <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                            </div>
+                            <figcaption class="figure-caption text-center">
+                                <span class="badge badge-secondary wd-badge text-uppercase">Security Camera</span>
+                                <div class="price-start">
+                                    <p><strong class="active-color"><u>$89.99</u></strong></p>
+                                </div>
+                                <div class="content-excerpt">
+                                    <a href="amazon-blink-outdoor-security-camera.html">
+                                        <p>Blink Outdoor Security Camera</p>
+                                    </a>
+                                </div>
+                                <div class="rating">
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="compare-btn">
+                                    <a class="btn btn-primary btn-sm" href="amazon-blink-outdoor-security-camera.html">Buy
+                                        Now</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div class="col-12">
+                        <figure class="figure product-box">
+                            <div class="product-box-img">
+                                <a href="wyze-cam-pan-v3-indoor-and-outdoor.html">
+                                    <img src="img/product-img/WYZE-Cam-Pan-v3-Indoor-and-Outdoor/wyze-cam-pan-v3-indoor-and-outdoor-product-img.webp"
+                                        class="figure-img img-fluid" alt="WYZE Smart Security Camera">
+                                </a>
+                                <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                            </div>
+                            <figcaption class="figure-caption text-center">
+                                <span class="badge badge-secondary wd-badge text-uppercase">Security Camera</span>
+                                <div class="price-start">
+                                    <p><strong class="active-color"><u>$39.98</u></strong></p>
+                                </div>
+                                <div class="content-excerpt">
+                                    <a href="wyze-cam-pan-v3-indoor-and-outdoor.html">
+                                        <p>WYZE Smart Security Camera</p>
+                                    </a>
+                                </div>
+                                <div class="rating">
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star active-color" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="compare-btn">
+                                    <a class="btn btn-primary btn-sm" href="wyze-cam-pan-v3-indoor-and-outdoor.html">Buy
+                                        Now</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+        Details Section
+    ============================== -->
+    <section id="details">
+        <div class="container">
+            <div class="row wow fadeInLeft animated justify-content-center" data-wow-delay="600ms">
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-compare" src="img/details-img/facts-icon.svg"
+                                    alt="compare-icon">
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h5 class="details-title">Get the Facts</h5>
+                            <p>Discover accurate and reliable product information</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-user" src="img/details-img/review-icon.svg"
+                                    alt="review-icon">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h4 class="details-title">Take Review</h4>
+                            <p>Explore recommended products through detailed reviews.</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-vendor" src="img/details-img/shop.svg"
+                                    alt="vendor-icon">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h4 class="details-title">Amazon Store</h4>
+                            <p>Purchase directly through the link to the specific product on Amazon.</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box details-active">
+                    <div class="text-center">
+                        <img class="img-fluid" src="img/details-img/gift-icon.svg" alt="gift-icon">
+                        <h3 class="details-active-title">Enjoy Result</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =========================
+        Footer Section
+    ============================== -->
+    <footer class="footer wow fadeInUp animated" data-wow-delay="900ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- ===========================
+    						Footer About
+    					 =========================== -->
+                    <div class="footer-about">
+                        <a href="index.html" class="footer-about-logo">
+                            <img src="img/logo.svg" alt="Logo">
+                        </a>
+                        <div class="footer-description">
+                            <p style="text-align: justify;">Explore a realm of comfort and intelligent technology at
+                                Habitatronic. Discover top-notch
+                                products for your smart home, simplifying your daily life with our innovative solutions.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-2 footer-view-controller">
+                    <!-- ===========================
+    						Festival Deals
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <h6 class="footer-subtitle active-color">Footer Menu</h6>
+                        <ul>
+                            <li><a href="index.html"> Home </a></li>
+                            <li><a href="shop-page.html">Shop </a></li>
+                            <li><a href="guides.html">Guides </a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-view-controller">
+                    <!-- ===========================
+    						Need Help ?
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <div class="footer-nav">
+                            <h6 class="footer-subtitle">Need Help ?</h6>
+                            <ul>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-view-controller">
+                    <!-- ===========================
+    						About
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <h6 class="footer-subtitle">Policy</h6>
+                        <ul>
+                            <li><a href="terms-of-use.html">Term of Use</a></li>
+                            <li><a href="privacy-policies.html">Privacy Policies</a></li>
+                            <li><a href="cookie-policies.html">Cookie Policies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =========================
+        CopyRight
+    ============================== -->
+    <section class="copyright wow fadeInUp animated" data-wow-delay="1500ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="copyright-text">
+                        <p class="text-uppercase">COPYRIGHT &copy; 2024</p><a class="created-by"
+                            href="http://habitatronic.com/">Habitatronic</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+    	Main Loding JS Script
+    ============================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <!-- <script src="js/jquery.nicescroll.js"></script> -->
+    <script src="js/jquery.rateyo.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/lightslider.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+
+    <script src="js/simplePlayer.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

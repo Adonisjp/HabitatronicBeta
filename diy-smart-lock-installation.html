@@ -1,0 +1,831 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <script>
+        partytown = {
+            forward: ['dataLayer.push'],
+        };
+    </script>
+
+    <script type="text/partytown">
+		const t = { preserveBehavior: !1 }, e = e => { if ("string" == typeof e) return [e, t]; const [n, r = t] = e; return [n, { ...t, ...r }] }, n = Object.freeze((t => { const e = new Set; let n = []; do { Object.getOwnPropertyNames(n).forEach((t => { "function" == typeof n[t] && e.add(t) })) } while ((n = Object.getPrototypeOf(n)) !== Object.prototype); return Array.from(e) })()); !function (t, r, o, i, a, s, c, d, l, p, u = t, f) { function h() { f || (f = 1, "/" == (c = (s.lib || "/~partytown/") + (s.debug ? "debug/" : ""))[0] && (l = r.querySelectorAll('script[type="text/partytown"]'), i != t ? i.dispatchEvent(new CustomEvent("pt1", { detail: t })) : (d = setTimeout(v, 1e4), r.addEventListener("pt0", w), a ? y(1) : o.serviceWorker ? o.serviceWorker.register(c + (s.swPath || "partytown-sw.js"), { scope: c }).then((function (t) { t.active ? y() : t.installing && t.installing.addEventListener("statechange", (function (t) { "activated" == t.target.state && y() })) }), console.error) : v()))) } function y(e) { p = r.createElement(e ? "script" : "iframe"), t._pttab = Date.now(), e || (p.style.display = "block", p.style.width = "0", p.style.height = "0", p.style.border = "0", p.style.visibility = "hidden", p.setAttribute("aria-hidden", !0)), p.src = c + "partytown-" + (e ? "atomics.js?v=0.10.2" : "sandbox-sw.html?" + t._pttab), r.querySelector(s.sandboxParent || "body").appendChild(p) } function v(n, o) { for (w(), i == t && (s.forward || []).map((function (n) { const [r] = e(n); delete t[r.split(".")[0]] })), n = 0; n < l.length; n++)(o = r.createElement("script")).innerHTML = l[n].innerHTML, o.nonce = s.nonce, r.head.appendChild(o); p && p.parentNode.removeChild(p) } function w() { clearTimeout(d) } s = t.partytown || {}, i == t && (s.forward || []).map((function (r) { const [o, { preserveBehavior: i }] = e(r); u = t, o.split(".").map((function (e, r, o) { var a; u = u[o[r]] = r + 1 < o.length ? u[o[r]] || (a = o[r + 1], n.includes(a) ? [] : {}) : (() => { let e = null; if (i) { const { methodOrProperty: n, thisObject: r } = ((t, e) => { let n = t; for (let t = 0; t < e.length - 1; t += 1)n = n[e[t]]; return { thisObject: n, methodOrProperty: e.length > 0 ? n[e[e.length - 1]] : void 0 } })(t, o); "function" == typeof n && (e = (...t) => n.apply(r, ...t)) } return function () { let n; return e && (n = e(arguments)), (t._ptf = t._ptf || []).push(o, arguments), n } })() })) })), "complete" == r.readyState ? h() : (t.addEventListener("DOMContentLoaded", h), t.addEventListener("load", h)) }(window, document, navigator, top, window.crossOriginIsolated);
+	</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-4FFMLMM4R0"></script>
+    <script type="text/partytown">
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-4FFMLMM4R0');
+	</script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>DIY Smart Lock Installation Guide</title>
+    <meta name="description"
+        content="Upgrade your home security with a DIY smart lock installation. Our easy-to-follow guide will walk you through the process step-by-step">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <!-- =========================
+        Loding All Stylesheet
+    ============================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="css/megamenu.css">
+
+    <!-- =========================
+        Loding Main Theme Style
+    ============================== -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- =========================
+    	Header Loding JS Script
+    ============================== -->
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body class="">
+
+
+    <!-- =========================
+        Header Top Section
+    ============================== -->
+    <section id="wd-header" class="d-flex align-items-center mob-sticky">
+        <div class="container">
+            <div class="row">
+                <!-- =========================
+					Mobile Menu 
+				============================== -->
+                <div class="order-2 order-sm-1 col-2 col-sm-2 col-md-4 d-block d-lg-none">
+                    <div class="accordion-wrapper hide-sm-up">
+                        <a href="#" class="mobile-open"><i class="fa fa-bars"></i></a>
+                        <!--Mobile Menu start-->
+
+                        <ul id="mobilemenu" class="accordion">
+                            <!-- <li class="mob-logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></li>-->
+                            <li><a class="closeme" href="#"><i class="fa fa-times"></i></a></li>
+                            <li class="mob-logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></li>
+                            <li>
+                                <div class="link"><a href="index.html"> Home</a></div>
+                            </li>
+                            <li>
+                                <div class="link"><a href="shop-page.html">Shop</a></div>
+                            </li>
+                            <li>
+                                <div class="link">Guides <i class="fa fa-chevron-down"></i></div>
+                                <ul class="submenu font-sky">
+                                    <li><a href="how-to-install-smart-lights-step-by-step.html">How to install smart
+                                            lights step-by-step</a></li>
+                                    <li><a href="smart-thermostat-setup-guide.html">Smart thermostat setup guide</a>
+                                    </li>
+                                    <li><a href="diy-smart-lock-installation.html">DIY Smart lock installation</a></li>
+                                    <li><a href="how-to-install-smart-security-camera.html">How to install a smart
+                                            security camera yourself</a></li>
+                                    <li><a href="how-to-connect-your-smart-TV-to-Alexa.html">How to connect your smart
+                                            TV to Alexa</a>
+                                    </li>
+                                    <li><a href="automate-your-appliances-with-smart-plug-schedules.html">Automate your
+                                            appliances with smart plug schedules</a></li>
+                            </li>
+
+                        </ul>
+                        </li>
+
+                        <li>
+                            <div class="link">FAQ<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li><a href="are-smart-homes-good-idea.html">Are smart homes a good idea?</a></li>
+                                <li><a href="smart-home-vulnerable-to-hackers.html">Is My Smart Home Vulnerable to
+                                        Hackers?</a></li>
+                                <li><a href="why-are-some-people-worried-smart-homes.html">Why are some people worried
+                                        about smart homes?</a></li>
+                                <li><a href="smart-home-increase-property-value.html">Does smart home increase property
+                                        value?</a></li>
+                                <li><a href="pros-and-cons-smart-homes.html">What are the pros and cons of a smart
+                                        home?</a></li>
+                                <li><a href="home-automation-your-gateway-smarter-life.html">How to automate your
+                                        home?</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link"><a href="blog.html">Blog</a></div>
+                        </li>
+                        <li>
+                            <div class="link ">About<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                        </li>
+
+
+                        </ul>
+                        <!--Mobile Menu end-->
+                    </div>
+                </div><!--Mobile menu end-->
+
+                <div class="order-1 order-sm-2  col-12 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                    <div class="blrub-logo">
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+
+            </div><!--Row End-->
+        </div><!--Container End-->
+    </section><!--Section End-->
+
+    <!-- =========================
+        Main Menu Section
+    ============================== -->
+    <section id="main-menu" class="sticker-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 col-md-6 col-lg-12 ">
+                    <div class="menu-container wd-megamenu">
+                        <div class="menu">
+                            <ul class="wd-megamenu-ul">
+                                <li><a href="index.html" class="main-menu-list"><i class="fa fa-home"
+                                            aria-hidden="true"></i> Home </a></li>
+
+                                <li><a href="shop-page.html" class="main-menu-list"> Shop </a></li>
+                                <li><a href="guides.html" class="main-menu-list">Guides<i
+                                            class="fa fa-angle-down angle-down" aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="how-to-install-smart-lights-step-by-step.html">How to install smart
+                                                lights step-by-step</a>
+                                        </li>
+                                        <li><a href="smart-thermostat-setup-guide.html">Smart thermostat setup guide</a>
+                                        </li>
+                                        <li><a href="diy-smart-lock-installation.html">DIY Smart Lock Installation</a>
+                                        </li>
+                                        <li><a href="how-to-install-smart-security-camera.html">How to install a smart
+                                                security camera yourself</a></li>
+                                        <li><a href="how-to-connect-your-smart-TV-to-Alexa.html">How to connect your
+                                                smart TV to Alexa</a></li>
+                                        <li><a href="automate-your-appliances-with-smart-plug-schedules.html">Automate
+                                                your appliances with smart plug schedules</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="about-us.html" class="main-menu-list">About<i
+                                            class="fa fa-angle-down angle-down" aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="about-us.html">About us</a></li>
+                                        <li><a href="contact-us.html">Contact us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="faq.html" class="main-menu-list">FAQ<i class="fa fa-angle-down angle-down"
+                                            aria-hidden="true"></i></a>
+                                    <ul class="single-dropdown">
+                                        <li><a href="are-smart-homes-good-idea.html">Are smart homes a good idea?</a>
+                                        </li>
+                                        <li><a href="smart-home-vulnerable-to-hackers.html">Is My Smart Home Vulnerable
+                                                to
+                                                Hackers?</a></li>
+                                        <li><a href="why-are-some-people-worried-smart-homes.html">Why are some people
+                                                worried about smart homes?</a></li>
+                                        <li><a href="smart-home-increase-property-value.html">Does smart home increase
+                                                property value?</a></li>
+                                        <li><a href="pros-and-cons-smart-homes.html">What are the pros and cons of a
+                                                smart
+                                                home?</a></li>
+                                        <li><a href="home-automation-your-gateway-smarter-life.html">How to automate
+                                                your
+                                                home?</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html" class="main-menu-list">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =========================
+        Blog Section
+    ============================== -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="blog-single">
+                        <div class="blog-box">
+                            <!-- 
+								==================
+								Date Section
+								==================
+	    					 -->
+                            <div class="blog-date text-center">
+                                <h2 class="date">28</h2>
+                                <h4 class="monthe">Jun</h4>
+                            </div>
+                            <!-- 
+								==================
+								Blog Img
+								==================
+	    					 -->
+                            <div class="blog-img">
+                                <img src="img/guides-img/DIY-Smart-Lock-Installation/diy-smart-lock-installation-blog-title.webp"
+                                    class="figure-img img-fluid" alt="DIY Smart Lock Installation
+                                    ">
+                                <div class="shadow">
+                                    <img src="img/shadow.png" class="figure-img img-fluid"
+                                        alt="DIY Smart Lock Installation Shadow Image">
+                                </div>
+                            </div>
+                            <!-- 
+								==================
+								Meta Area
+								==================
+	    					 -->
+                            <div class="single-blog-mata-area">
+
+                                <div class="blog-badge">
+                                    <span class="badge badge-secondary black-bg">Blog</span>
+                                    <span class="badge badge-secondary green-bg">Update</span>
+                                    <span class="badge badge-secondary red-bg">Guide</span>
+                                </div>
+                            </div>
+                            <!-- 
+								======================
+								Blog Content
+								======================
+	    					 -->
+                            <div style="margin-top: 22px;" class="blog-content-box">
+                                <h1 class="inside-blog-title mb-20">DIY Smart Lock Installation Guide</h1>
+                                <p class="inside-blog-content"><strong>Smart locks</strong> are leading front stage in
+                                    the way we
+                                    interact with our living environments, which have been transformed by <strong>smart
+                                        home
+                                        technologies.</strong> The days of fumbling keys or fearing loss of them are
+                                    long gone. Any
+                                    modern home should have a smart lock since it provides <strong>improved security and
+                                        the
+                                        ease of remote operation</strong>. I'll walk you through <strong>my smart lock
+                                        installation
+                                        experience in this post</strong>, including thorough instructions and practical
+                                    advice to
+                                    guarantee a flawless installation.</p>
+                                <br>
+
+                                <h2 class="inside-blog-subtitle mb-20">Tools and Materials Needed</h2>
+
+                                <p class="inside-blog-content">Before starting the installation, gather the following
+                                    tools and materials: <br>
+
+                                    - Drill <br>
+                                    - Measuring tape <br>
+                                    - Screwdrivers (Phillips and flathead) <br>
+                                    - Smart lock kit (with all necessary components) <br>
+                                    - Batteries (if not included with the smart lock) <br>
+                                    - Smartphone (for app setup) <br>
+                                </p>
+                                <br>
+
+                                <h2 class="inside-blog-subtitle mb-20">Choosing the Right Smart Lock</h2>
+
+                                <p class="inside-blog-content">A good installation depends on the <strong>correct smart
+                                        lock
+                                        being chosen.</strong> I advise two highly rated smart locks from Amazon here:
+                                </p>
+                                <br>
+
+                                <div class="row blog-recommended-products">
+
+                                    <div class="col-12 col-md-6 col-lg-4 reviews-load-more">
+                                        <figure class="figure product-box row">
+
+
+                                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 p0">
+                                                <div class="product-box-img">
+                                                    <a href="yamiry-fingerprint-lock.html">
+                                                        <img src="img/product-img/Yamiry-Fingerprint-Lock/yamiry-fingerprint-lock-product-img.webp"
+                                                            class="figure-img img-fluid" alt="Echo Show 8">
+                                                    </a>
+                                                    <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                                                </div>
+                                                <span
+                                                    class="badge badge-secondary wd-badge featured-bg-color text-uppercase">Smart
+                                                    Entry</span>
+
+                                            </div>
+
+                                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 p0">
+                                                <div class="figure-caption text-center">
+                                                    <div class="price-start">
+                                                        <p><strong class="active-color"><u>$87.98</u></strong>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content-excerpt">
+                                                        <a href="yamiry-fingerprint-lock.html">
+                                                            <p>Yamiry Fingerprint Lock</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                        <span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                                    </div>
+                                                    <div class="compare-btn">
+                                                        <a class="btn btn-primary btn-sm"
+                                                            href="yamiry-fingerprint-lock.html">Buy
+                                                            Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+
+
+                                    <div class="col-12 col-md-6 col-lg-4 reviews-load-more">
+                                        <figure class="figure product-box row">
+
+
+                                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 p0">
+                                                <div class="product-box-img">
+                                                    <a href="teeho-fingerprint-door-lock.html">
+                                                        <img src="img/product-img/TEEHO-Fingerprint-Door-Lock/teeho-fingerprint-door-lock-product-img.webp"
+                                                            class="figure-img img-fluid"
+                                                            alt="TEEHO Fingerprint Door Lock">
+                                                    </a>
+                                                    <span class="box-amazon-img-attribution">Source: Amazon.com</span>
+                                                </div>
+                                                <span
+                                                    class="badge badge-secondary wd-badge featured-bg-color text-uppercase">Smart
+                                                    Entry</span>
+
+                                            </div>
+
+                                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 p0">
+                                                <div class="figure-caption text-center">
+                                                    <div class="price-start">
+                                                        <p><strong class="active-color"><u>$69.99</u></strong>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content-excerpt">
+                                                        <a href="teeho-fingerprint-door-lock.html">
+                                                            <p>TEEHO Fingerprint Door Lock</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                        <span><i class="fa fa-star active-color"
+                                                                aria-hidden="true"></i></span>
+                                                    </div>
+                                                    <div class="compare-btn">
+                                                        <a class="btn btn-primary btn-sm"
+                                                            href="teeho-fingerprint-door-lock.html">Buy Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+
+                                </div>
+                                <br>
+
+                                <h2 class="inside-blog-subtitle mb-20">Preparing for Installation </h2>
+
+                                <p class="inside-blog-content">- Go over the installed handbook given with your smart
+                                    lock very carefully. Every model can have particular criteria and procedures.
+                                    <br>
+                                    - Make sure your door and current lock hardware fit the new smart lock.
+
+                                </p>
+                                <br>
+                                <h2 class="inside-blog-subtitle mb-20">Removing the Old Lock</h2>
+
+                                <p class="inside-blog-content">- Remove the screws maintaining the current lock in place
+                                    with a screwdriver. <br>
+
+                                    - Keeping all parts together for reference, carefully separate the lock mechanism
+                                    from the door. <br>
+
+                                    - Clear the space and make sure damage or obstacles would not hinder the
+                                    installation of the new lock.
+                                </p>
+                                <br>
+
+                                <h2 class="inside-blog-subtitle mb-20">Installing the Smart Lock Mechanism</h2>
+                                <h2 style="font-size: 17px;" class="mb-20">1. Install the Mounting Plate:</h2>
+
+                                <p class="inside-blog-content">
+                                    - Arange the mounting plate on the door such that it lines the holes left by the
+                                    previous lock. <br>
+                                    - Fix the mounting plate using the given screws.
+                                </p>
+                                <br>
+
+                                <h2 style="font-size: 17px;" class="mb-20">2. Attach the Smart Lock Components:</h2>
+
+                                <p class="inside-blog-content">
+                                    - Connect any necessary wiring as directed. <br>
+                                    - Attaching the smart lock mechanism to the mounting plate guarantees its strong
+                                    stability.
+
+                                </p>
+                                <br>
+
+                                <h2 style="font-size: 17px;" class="mb-20">3. Adjust the Latch and Bolt:</h2>
+
+                                <p class="inside-blog-content">
+                                    - Make sure the door frame's strike plate aligns the latch and bolt exactly. <br>
+                                    - To confirm flawless functionality, personally test the lock.
+                                </p>
+                                <br>
+
+                                <h2 class="inside-blog-subtitle mb-20">Setting Up the Smart Lock Software</h2>
+                                <h2 style="font-size: 17px;" class="mb-20">1. Download the App:</h2>
+
+                                <p class="inside-blog-content">
+                                    - From the App Store or Google Play Store download the smart lock app. <br>
+                                    - Create an account and link the lock to your Wi-Fi network as directed by the app.
+
+                                </p>
+                                <br>
+
+                                <h2 style="font-size: 17px;" class="mb-20">2. Configure Access Codes:</h2>
+
+                                <p class="inside-blog-content">
+                                    - Create access codes for relatives and reliable people. <br>
+                                    - Set things like auto-lock times and alerts to suit you.
+
+
+                                </p>
+                                <br>
+
+                                <h2 class="inside-blog-subtitle mb-20">Benefits of Installing a Smart Lock</h2>
+                                <p class="inside-blog-content">Once I <strong>installed and personalized my smart
+                                        lock</strong>, the
+                                    advantages were clear-cut. There are no more missing keys or hand full struggles to
+                                    open the door. The ease and security were amazing. <strong>Remote access</strong>
+                                    allows me to use my
+                                    smartphone to control my lock from anywhere, so bringing even more ease to my daily
+                                    life. <strong>Improved security tools</strong> let me keep an eye on access records
+                                    and get
+                                    notifications for illegal attempts, therefore guaranteeing peace of mind.
+                                    <br><br>
+                                    The <strong>keyless entry technology</strong> eliminated the trouble of carrying
+                                    keys and greatly
+                                    streamlined my daily schedule. All things considered, the smart lock installation
+                                    turned out to be a <strong>transforming improvement</strong> offering unmatched
+                                    security and
+                                    simplicity of use.
+                                </p>
+                                <br>
+                                <h2 class="inside-blog-subtitle mb-20">Conclusion and Final Thoughts</h2>
+                                <p class="inside-blog-content">Putting up a smart lock will greatly improve the
+                                    <strong>security
+                                        and convenience of your house.</strong> This <strong>"do-it-yourself"</strong>
+                                    project may be quite fulfilling
+                                    with the correct tools, tolerance, and attention to detail. Accept the
+                                    <strong>freedom and
+                                        protection smart home technology</strong> offers, then transform your house into
+                                    a more
+                                    convenient and safe refuge.
+                                </p>
+                                <br><br>
+
+                                <!-- =========================
+        								Blog Section
+    							============================== -->
+                                <section class="blog-section">
+                                    <div class="container">
+                                        <div class="row tow-grid">
+                                            <div class="col-md-12">
+                                                <div class="section-title-center text-center">
+                                                    <h2 class="title">Related Posts</h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="blog-box">
+                                                    <div class="blog-img">
+                                                        <a href="how-to-install-smart-security-camera.html">
+                                                            <img src="img/guides/how-to-install-smart-security-camera.webp"
+                                                                class="figure-img img-fluid"
+                                                                alt="Install a Smart Security Camera">
+                                                        </a>
+                                                    </div>
+
+                                                    <div style="margin-top: 12px;" class="blog-content-box">
+                                                        <a href="how-to-install-smart-security-camera.html">
+                                                            <h4 class="blog-title">How to Install a Smart Security
+                                                                Camera Yourself</h4>
+                                                        </a>
+
+                                                        <div class="raed-more">
+                                                            <a class="btn btn-link"
+                                                                href="how-to-install-smart-security-camera.html">
+                                                                READ MORE <i class="fa fa-angle-right"
+                                                                    aria-hidden="true"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-box">
+                                                    <div class="blog-img">
+                                                        <a
+                                                            href="automate-your-appliances-with-smart-plug-schedules.html">
+                                                            <img src="img/guides/automate-your-appliances-with-smart-plug-schedules.webp"
+                                                                class="figure-img img-fluid"
+                                                                alt="Automate Your Appliances">
+                                                        </a>
+                                                    </div>
+
+                                                    <div style="margin-top: 12px;" class="blog-content-box">
+                                                        <a
+                                                            href="automate-your-appliances-with-smart-plug-schedules.html">
+                                                            <h4 class="blog-title">Automate Your Appliances With Smart
+                                                                Plug Schedules</h4>
+                                                        </a>
+
+                                                        <div class="raed-more">
+                                                            <a class="btn btn-link"
+                                                                href="automate-your-appliances-with-smart-plug-schedules.html">
+                                                                READ MORE <i class="fa fa-angle-right"
+                                                                    aria-hidden="true"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-box">
+                                                    <div class="blog-img">
+                                                        <a href="smart-thermostat-setup-guide.html">
+                                                            <img src="img/guides/smart-thermostat-setup-guide.webp"
+                                                                class="figure-img img-fluid"
+                                                                alt="Smart Thermostat Setup">
+                                                        </a>
+                                                    </div>
+
+                                                    <div style="margin-top: 12px;" class="blog-content-box">
+                                                        <a href="smart-thermostat-setup-guide.html">
+                                                            <h4 class="blog-title">Smart Thermostat Setup Guide</h4>
+                                                        </a>
+
+                                                        <div class="raed-more">
+                                                            <a class="btn btn-link"
+                                                                href="smart-thermostat-setup-guide.html">
+                                                                READ MORE <i class="fa fa-angle-right"
+                                                                    aria-hidden="true"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-box">
+                                                    <div class="blog-img">
+                                                        <a href="how-to-connect-your-smart-TV-to-Alexa.html">
+                                                            <img src="img/guides/how-to-connect-your-smart-TV-to-Alexa.webp"
+                                                                class="figure-img img-fluid"
+                                                                alt="Connect Smart TV to Alexa">
+                                                        </a>
+                                                    </div>
+
+                                                    <div style="margin-top: 12px;" class="blog-content-box">
+                                                        <a href="how-to-connect-your-smart-TV-to-Alexa.html">
+                                                            <h4 class="blog-title">How to connect your Smart TV to Alexa
+                                                            </h4>
+                                                        </a>
+
+                                                        <div class="raed-more">
+                                                            <a class="btn btn-link"
+                                                                href="how-to-connect-your-smart-TV-to-Alexa.html">
+                                                                READ MORE <i class="fa fa-angle-right"
+                                                                    aria-hidden="true"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <hr>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+        Details Section
+    ============================== -->
+    <section id="details">
+        <div class="container">
+            <div class="row wow fadeInLeft animated justify-content-center" data-wow-delay="600ms">
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-compare" src="img/details-img/facts-icon.svg"
+                                    alt="compare-icon">
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h5 class="details-title">Get the Facts</h5>
+                            <p>Discover accurate and reliable product information</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-user" src="img/details-img/review-icon.svg"
+                                    alt="review-icon">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h4 class="details-title">Take Review</h4>
+                            <p>Explore recommended products through detailed reviews.</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box">
+                    <div class="row">
+                        <div class="col-sm-3 p0 text-center">
+                            <div class="details-img">
+                                <img class="img-fluid main-hover-icon-vendor" src="img/details-img/shop.svg"
+                                    alt="vendor-icon">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-9 p0 details-description">
+                            <h4 class="details-title">Amazon Store</h4>
+                            <p>Purchase directly through the link to the specific product on Amazon.</p>
+                        </div>
+                    </div>
+                    <div class="arow">
+                        <img src="img/details-img/angle2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3 details-box details-active">
+                    <div class="text-center">
+                        <img class="img-fluid" src="img/details-img/gift-icon.svg" alt="gift-icon">
+                        <h3 class="details-active-title">Enjoy Result</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =========================
+        Footer Section
+    ============================== -->
+    <footer class="footer wow fadeInUp animated" data-wow-delay="900ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- ===========================
+    						Footer About
+    					 =========================== -->
+                    <div class="footer-about">
+                        <a href="index.html" class="footer-about-logo">
+                            <img src="img/logo.svg" alt="Logo">
+                        </a>
+                        <div class="footer-description">
+                            <p style="text-align: justify;">Explore a realm of comfort and intelligent technology at
+                                Habitatronic. Discover top-notch
+                                products for your smart home, simplifying your daily life with our innovative solutions.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-2 footer-view-controller">
+                    <!-- ===========================
+    						Festival Deals
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <h6 class="footer-subtitle active-color">Footer Menu</h6>
+                        <ul>
+                            <li><a href="index.html"> Home </a></li>
+                            <li><a href="shop-page.html">Shop </a></li>
+                            <li><a href="guides.html">Guides </a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-view-controller">
+                    <!-- ===========================
+    						Need Help ?
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <div class="footer-nav">
+                            <h6 class="footer-subtitle">Need Help ?</h6>
+                            <ul>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-view-controller">
+                    <!-- ===========================
+    						About
+    					 =========================== -->
+                    <div class="footer-nav">
+                        <h6 class="footer-subtitle">Policy</h6>
+                        <ul>
+                            <li><a href="terms-of-use.html">Term of Use</a></li>
+                            <li><a href="privacy-policies.html">Privacy Policies</a></li>
+                            <li><a href="cookie-policies.html">Cookie Policies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =========================
+        CopyRight
+    ============================== -->
+    <section class="copyright wow fadeInUp animated" data-wow-delay="1500ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="copyright-text">
+                        <p class="text-uppercase">COPYRIGHT &copy; 2024</p><a class="created-by"
+                            href="http://habitatronic.com/">Habitatronic</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+    	Main Loding JS Script
+    ============================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <!-- <script src="js/jquery.nicescroll.js"></script> -->
+    <script src="js/jquery.rateyo.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/lightslider.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+
+    <script src="js/simplePlayer.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
